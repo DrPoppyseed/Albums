@@ -1,10 +1,14 @@
 import React from 'react';
-import {AppRegistry} from 'react-native';
-import Header from './src/components/header';
+import {View, AppRegistry} from 'react-native';
+import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList';
 
 // create a component
 const App = () => (
-	<Header />
+	<View>
+		<Header headerText={'Superman!'} />
+		<AlbumList />
+	<View>
 );
 
 // render it to the screen of the device
