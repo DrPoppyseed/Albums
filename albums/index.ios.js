@@ -8,7 +8,7 @@ const App = () => (
 	<View>
 		<Header headerText={'Superman!'} />
 		<AlbumList />
-	<View>
+	</View>
 );
 
 // render it to the screen of the device
