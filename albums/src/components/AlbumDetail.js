@@ -1,11 +1,19 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import Card from './Card.js';
+import CardSection from './CardSection.js';
 
 const AlbumDetail = (props) => {
   return (
-    <View>
-      <Text>{props.album.title}</Text>
-    </View>
+    <Card>
+      <CardSection>
+        <Text>{props.album.title}</Text>
+      </CardSection>
+
+      <CardSection>
+        <Text>{props.album.title}</Text>
+      </CardSection>
+    </Card>
   );
 };
 
