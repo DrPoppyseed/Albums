@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Views} from 'react-native';
 import axios from 'axios';
-import AlbumDetail from './AlbumDetails.js';
+import AlbumDetail from './AlbumDetail.js';
 
 class AlbumList extends Component {
   state = {albums: []};

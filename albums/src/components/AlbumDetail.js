@@ -6,7 +6,7 @@ const AlbumDetail = (props) => {
     <View>
       <Text>{props.album.title}</Text>
     </View>
-  )
+  );
 };
 
 export default AlbumDetail;
