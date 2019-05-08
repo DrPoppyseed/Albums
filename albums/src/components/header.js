@@ -27,7 +27,7 @@ const styles = {
     position: 'relative'
   },
   textStyle: {
-    fontSize: 40
+    fontSize: 25
   }
 };
 
